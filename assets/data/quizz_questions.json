@@ -1,0 +1,51 @@
+{
+  "title":"CONFIRA SE VOCÊ TEM DIREITO AO BPC LOAS",
+  "questions":[
+    {
+      "id":1,
+      "question": "VOCÊ TEM 65 ANOS OU MAIS?",
+      "options":[
+        {"id": 1, "name":"SIM", "alias":"A"},
+        {"id": 2, "name":"NÃO", "alias":"B"}
+      ]
+    },
+    {
+      "id":2,
+      "question": "VOCÊ POSSUI ALGUM TIPO DE DEFICIÊNCIA ?",
+      "options":[
+        {"id": 1, "name":"SIM", "alias":"A"},
+        {"id": 2, "name":"NÃO", "alias":"B"},
+        {"id": 3, "name":"NÃO SEI DIZER", "alias":"B"}
+      ]
+    },
+    {
+      "id":3,
+      "question": "VOCÊ TEM RENDA FAMILIAR PER CAPTA DE ATÉ R$ 1/4 DO SALÁRIO MÍNIMO ?",
+      "options":[
+        {"id": 1, "name":"SIM", "alias":"A"},
+        {"id": 2, "name":"NÃO", "alias":"B"},
+        {"id": 3, "name":"NÃO SEI DIZER", "alias":"B"} 
+      ]
+    },
+    {
+      "id":4,
+      "question": "VOCÊ TEM CADASTRO ÚNICO?",
+      "options":[
+        {"id": 1, "name":"SIM", "alias":"A"},
+        {"id": 2, "name":"NÃO", "alias":"B"}
+      ]
+    },
+    {
+      "id":5,
+      "question": "QUAL RENDA FAMILIAR ATUALMENTE",
+      "options":[
+        {"id": 1, "name":"ACIMA DE UM SALÁRIO MÍNIMO", "alias":"B"},
+        {"id": 2, "name":"ABAIXO DE UM SALÁRIO MÍNIMO", "alias":"A"}
+      ]
+    }
+  ],
+  "results":{
+    "A": "COM BASE NAS SUAS RESPOSTAS, VOCÊ PODE TER DIREITO AO BENEFÍCIO! PROCURE UM ADVOGADO DE SUA CONFIANÇA!",
+    "B": "INFELIZMENTE COM BASE NAS SUAS RESPOSTAS, VOCÊ NÃO POSSUI DIRETO AO BENEFÍCIO!"
+  }
+}
