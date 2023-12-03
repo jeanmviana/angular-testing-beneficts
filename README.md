@@ -1,1 +1,1 @@
-... em contrução
+Projeto de Site com Teste para consulta pública de requisitos para concessão de Benefício Assistencial - BPC - LOAS.
