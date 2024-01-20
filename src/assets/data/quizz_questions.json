@@ -1,51 +1,42 @@
 {
-  "title":"CONFIRA SE VOCÊ TEM DIREITO AO BPC LOAS",
-  "questions":[
+  "title": "VAMOS COMEÇAR...",
+  "questions": [
     {
-      "id":1,
-      "question": "VOCÊ TEM 65 ANOS OU MAIS?",
-      "options":[
-        {"id": 1, "name":"SIM", "alias":"A"},
-        {"id": 2, "name":"NÃO", "alias":"B"}
+      "id": 1,
+      "question": "ESCOLHA UM NÚMERO",
+      "options": [
+        { "id": 1, "name": "123", "alias": "I" },
+        { "id": 2, "name": "456", "alias": "B" },
+        { "id": 1, "name": "789", "alias": "A" }
       ]
     },
     {
-      "id":2,
-      "question": "VOCÊ POSSUI ALGUM TIPO DE DEFICIÊNCIA ?",
-      "options":[
-        {"id": 1, "name":"SIM", "alias":"A"},
-        {"id": 2, "name":"NÃO", "alias":"B"},
-        {"id": 3, "name":"NÃO SEI DIZER", "alias":"B"}
+      "id": 2,
+      "question": "AGORA SUBTRAIA O NÚMERO QUE VOCê ESCOLHEU PELO NÚMERO AO CONTRÁRIO, OU SEJA SE VOCÊ ESCOLHEU 123, SUBTRAIA: 123 - 321 = ",
+      "options": [
+        { "id": 1, "name": "ENTENDI", "alias": "AA" },
+        { "id": 2, "name": "NÃO ENTENDI", "alias": "BB" }
       ]
     },
     {
-      "id":3,
-      "question": "VOCÊ TEM RENDA FAMILIAR PER CAPTA DE ATÉ R$ 1/4 DO SALÁRIO MÍNIMO ?",
-      "options":[
-        {"id": 1, "name":"SIM", "alias":"A"},
-        {"id": 2, "name":"NÃO", "alias":"B"},
-        {"id": 3, "name":"NÃO SEI DIZER", "alias":"B"} 
-      ]
-    },
-    {
-      "id":4,
-      "question": "VOCÊ TEM CADASTRO ÚNICO?",
-      "options":[
-        {"id": 1, "name":"SIM", "alias":"A"},
-        {"id": 2, "name":"NÃO", "alias":"B"}
-      ]
-    },
-    {
-      "id":5,
-      "question": "QUAL RENDA FAMILIAR ATUALMENTE",
-      "options":[
-        {"id": 1, "name":"ACIMA DE UM SALÁRIO MÍNIMO", "alias":"B"},
-        {"id": 2, "name":"ABAIXO DE UM SALÁRIO MÍNIMO", "alias":"A"}
+      "id": 3,
+      "question": "QUAL O ÚLTIMO NÚMERO DO RESULTADO OBTIDO?",
+      "options": [
+        { "id": 1, "name": "0", "alias": "A" },
+        { "id": 2, "name": "1", "alias": "B" },
+        { "id": 3, "name": "2", "alias": "C" },
+        { "id": 1, "name": "3", "alias": "D" },
+        { "id": 2, "name": "5", "alias": "E" },
+        { "id": 3, "name": "5", "alias": "F" },
+        { "id": 1, "name": "6", "alias": "G" },
+        { "id": 2, "name": "7", "alias": "H" },
+        { "id": 3, "name": "8", "alias": "I" },
+        { "id": 3, "name": "9", "alias": "J" }
       ]
     }
   ],
-  "results":{
-    "A": "COM BASE NAS SUAS RESPOSTAS, VOCÊ PODE TER DIREITO AO BENEFÍCIO! PROCURE UM ADVOGADO DE SUA CONFIANÇA!",
+  "results": {
+    "I": "SEU RESULTDO FOI 198",
     "B": "INFELIZMENTE COM BASE NAS SUAS RESPOSTAS, VOCÊ NÃO POSSUI DIRETO AO BENEFÍCIO!"
   }
 }

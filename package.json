@@ -1,5 +1,5 @@
 {
-  "name": "project-buzzfeed",
+  "name": "teste-magica",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "deploy:ghdocs": "ng build --configuration production --output-path docs --base-href /project-testing"
+    "deploy:ghdocs": "ng build --configuration production --output-path docs --base-href /teste-magica"
   },
   "private": true,
   "dependencies": {
